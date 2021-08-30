@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Versión para iOS de la increible y fantasuosa librería ICP Commons.
                        DESC
 
   s.homepage         = 'https://github.com/icpmoviles/ICP_Commons_iOS'
