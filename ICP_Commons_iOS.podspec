@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/rufius97/ICP_Commons_iOS'
+  s.homepage         = 'https://github.com/icpmoviles/ICP_Commons_iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rufius97' => '41873918+rufius97@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/rufius97/ICP_Commons_iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/icpmoviles/ICP_Commons_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
