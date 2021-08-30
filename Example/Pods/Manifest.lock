@@ -1,5 +1,5 @@
 PODS:
-  - ICP_Commons_iOS (0.1.0)
+  - ICP_Commons_iOS (0.2.0)
 
 DEPENDENCIES:
   - ICP_Commons_iOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ICP_Commons_iOS: 285cb5af812678db5705a5d7b1117d8221abbef6
+  ICP_Commons_iOS: df2e6dd406dc81eabaa76f2c7b465004c470b998
 
 PODFILE CHECKSUM: eccab58b7951cbad948b477204896cbac9b244e2
 
