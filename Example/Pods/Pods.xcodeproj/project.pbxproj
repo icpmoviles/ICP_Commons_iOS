@@ -410,37 +410,7 @@
 			};
 			name = Debug;
 		};
-		370AB34926B05017994FDCBB44EB2DCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3E1C66CE113B4E423F00BC0AD43BAEF /* ICP_Commons_iOS.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ICP_Commons_iOS/ICP_Commons_iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ICP_Commons_iOS/ICP_Commons_iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ICP_Commons_iOS/ICP_Commons_iOS.modulemap";
-				PRODUCT_MODULE_NAME = ICP_Commons_iOS;
-				PRODUCT_NAME = ICP_Commons_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		45551F01BD58460F7191DBBABCFCBBB3 /* Release */ = {
+		6577D5142703EF0625DDF5A190D31EB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B16800BD61CDBD88BC11A5E3A733E98 /* ICP_Commons_iOS.release.xcconfig */;
 			buildSettings = {
@@ -463,13 +433,43 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		95880D5C2398591457AA7B523DFD1975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E1C66CE113B4E423F00BC0AD43BAEF /* ICP_Commons_iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ICP_Commons_iOS/ICP_Commons_iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ICP_Commons_iOS/ICP_Commons_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ICP_Commons_iOS/ICP_Commons_iOS.modulemap";
+				PRODUCT_MODULE_NAME = ICP_Commons_iOS;
+				PRODUCT_NAME = ICP_Commons_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		BA23C00FCD37949E5A8FC3FB567798C0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -590,8 +590,8 @@
 		DD3C24FB0C36FBF67997CBD655761E78 /* Build configuration list for PBXNativeTarget "ICP_Commons_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				370AB34926B05017994FDCBB44EB2DCE /* Debug */,
-				45551F01BD58460F7191DBBABCFCBBB3 /* Release */,
+				95880D5C2398591457AA7B523DFD1975 /* Debug */,
+				6577D5142703EF0625DDF5A190D31EB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

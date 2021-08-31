@@ -1,5 +1,5 @@
 PODS:
-  - ICP_Commons_iOS (0.2.0)
+  - ICP_Commons_iOS (0.5.0)
 
 DEPENDENCIES:
   - ICP_Commons_iOS (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ICP_Commons_iOS: df2e6dd406dc81eabaa76f2c7b465004c470b998
+  ICP_Commons_iOS: 7c0c51d962ab67db4d9ca76687bedc23b109beb6
 
-PODFILE CHECKSUM: eccab58b7951cbad948b477204896cbac9b244e2
+PODFILE CHECKSUM: 370913c270101918156bdff516165a6ec6a5bb00
 
 COCOAPODS: 1.10.2

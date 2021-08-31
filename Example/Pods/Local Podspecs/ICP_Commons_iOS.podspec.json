@@ -1,8 +1,9 @@
 {
   "name": "ICP_Commons_iOS",
-  "version": "0.2.0",
-  "summary": "A short description of ICP_Commons_iOS.",
-  "description": "Versión para iOS de la increible y fantasuosa librería ICP Commons.",
+  "version": "0.5.0",
+  "summary": "Bienvenidos a la increible y fantasuosa version para iOS del amigo y vecino ICP Commons!!!",
+  "swift_versions": "4.1",
+  "description": "Versión para iOS de la increible y fantasuosa librería ICP Commons.\nBienvenidos a la increible y fantasuosa version para iOS del amigo y vecino ICP Commons!!!",
   "homepage": "https://github.com/icpmoviles/ICP_Commons_iOS",
   "license": {
     "type": "MIT",
@@ -13,10 +14,11 @@
   },
   "source": {
     "git": "https://github.com/icpmoviles/ICP_Commons_iOS.git",
-    "tag": "0.2.0"
+    "tag": "0.5.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ICP_Commons_iOS/Classes/**/*"
+  "source_files": "ICP_Commons_iOS/Classes/**/*",
+  "swift_version": "4.1"
 }

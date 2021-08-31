@@ -8,8 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ICP_Commons_iOS'
-  s.version          = '0.3.0'
-  s.summary          = 'A short description of ICP_Commons_iOS.'
+  s.version          = '0.6.0'
+  s.summary          = 'Bienvenidos a la increible y fantasuosa version para iOS del amigo y vecino ICP Commons!!!'
+  
+  s.swift_version    = '4.1'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,6 +21,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 Versión para iOS de la increible y fantasuosa librería ICP Commons.
+Bienvenidos a la increible y fantasuosa version para iOS del amigo y vecino ICP Commons!!!
                        DESC
 
   s.homepage         = 'https://github.com/icpmoviles/ICP_Commons_iOS'
