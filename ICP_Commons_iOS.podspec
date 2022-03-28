@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ICP_Commons_iOS'
-  s.version          = '0.6.0'
+  s.version          = '0.6.1'
   s.summary          = 'Bienvenidos a la increible y fantasuosa version para iOS del amigo y vecino ICP Commons!!!'
   
   s.swift_version    = '4.1'
