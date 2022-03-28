@@ -12,6 +12,7 @@
 		4DE7984204F8901E09854E70C9428B99 /* Pods-ICP_Commons_iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F48CC6DBD95F1C4A62097A4D3F4608D /* Pods-ICP_Commons_iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59AE74C67BBCEF10F1E2501B7F1014C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C468D0CB31E23CFD3FAF30F9BE27D900 /* Pods-ICP_Commons_iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D92AF24B2A149590E6D8A38D090C7 /* Pods-ICP_Commons_iOS_Example-dummy.m */; };
+		F00A38A427F1D5B200C59D08 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A38A327F1D5B200C59D08 /* KeychainService.swift */; };
 		F7A4B8CBBC8A6020588A4D1DD50490BF /* ICP_Commons_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D0F3079A0006C0D63AE36FE099B81A /* ICP_Commons_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF7CB742B3C23D60A23AF5AD82553A1F /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F6CC49A20CA4855BE35E2B2AC94BB /* BlinkingLabel.swift */; };
 /* End PBXBuildFile section */
@@ -27,13 +28,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		082956D634F772EB41C3476A0649C79E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		082956D634F772EB41C3476A0649C79E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		15C4B187F52EDE919F5EBBCB53A5F417 /* ICP_Commons_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ICP_Commons_iOS-dummy.m"; sourceTree = "<group>"; };
 		205CA01195698EBA3ECD410F80B29510 /* Pods-ICP_Commons_iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ICP_Commons_iOS_Example.modulemap"; sourceTree = "<group>"; };
-		20FCCD0CC77CD0C232CCD07D0E56FE4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		20FCCD0CC77CD0C232CCD07D0E56FE4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2931B8470826E21112FFA2ABE55C1182 /* Pods-ICP_Commons_iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICP_Commons_iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		30E7A1CF0CA9AE9ED746C13F773E76C1 /* ICP_Commons_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ICP_Commons_iOS.modulemap; sourceTree = "<group>"; };
-		33FABBA063BA2266AB823488F5C8CBE6 /* ICP_Commons_iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ICP_Commons_iOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33FABBA063BA2266AB823488F5C8CBE6 /* ICP_Commons_iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ICP_Commons_iOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		406FAE8ED1FEACC7FDC492DB27AD3A87 /* Pods-ICP_Commons_iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICP_Commons_iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		470DEA72D58005CE0A1FE1F4A98B9CD9 /* Pods-ICP_Commons_iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICP_Commons_iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
 		58D0F3079A0006C0D63AE36FE099B81A /* ICP_Commons_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICP_Commons_iOS-umbrella.h"; sourceTree = "<group>"; };
@@ -44,13 +45,14 @@
 		7F7D92AF24B2A149590E6D8A38D090C7 /* Pods-ICP_Commons_iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICP_Commons_iOS_Example-dummy.m"; sourceTree = "<group>"; };
 		8C416C36F4E5D2B285D8CB0B738519A4 /* ICP_Commons_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ICP_Commons_iOS-Info.plist"; sourceTree = "<group>"; };
 		8F48CC6DBD95F1C4A62097A4D3F4608D /* Pods-ICP_Commons_iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ICP_Commons_iOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A14F6CC49A20CA4855BE35E2B2AC94BB /* BlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkingLabel.swift; path = ICP_Commons_iOS/Classes/BlinkingLabel.swift; sourceTree = "<group>"; };
 		B6B39946A4619A1CF66DB19BF0818B89 /* Pods-ICP_Commons_iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICP_Commons_iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C11B6287757F95C89575CBBFA736FF0E /* Pods-ICP_Commons_iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICP_Commons_iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D3E1C66CE113B4E423F00BC0AD43BAEF /* ICP_Commons_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICP_Commons_iOS.debug.xcconfig; sourceTree = "<group>"; };
-		D889377750F9ED13F1FDBB6B7D3EFF36 /* Pods_ICP_Commons_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ICP_Commons_iOS_Example.framework; path = "Pods-ICP_Commons_iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8CA092CF5956861268C098CB044B51F /* ICP_Commons_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ICP_Commons_iOS.framework; path = ICP_Commons_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D889377750F9ED13F1FDBB6B7D3EFF36 /* Pods_ICP_Commons_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICP_Commons_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00A38A327F1D5B200C59D08 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		F8CA092CF5956861268C098CB044B51F /* ICP_Commons_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ICP_Commons_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				A14F6CC49A20CA4855BE35E2B2AC94BB /* BlinkingLabel.swift */,
+				F00A38A327F1D5B200C59D08 /* KeychainService.swift */,
 				693B06817172A10C471E659E6DEAA3D0 /* Pod */,
 				A81C18FB6F708184911BBBB5C04DFD8B /* Support Files */,
 			);
@@ -297,6 +300,7 @@
 			files = (
 				FF7CB742B3C23D60A23AF5AD82553A1F /* BlinkingLabel.swift in Sources */,
 				1858CE0E54A56E4EABC8DDBE8B401B14 /* ICP_Commons_iOS-dummy.m in Sources */,
+				F00A38A427F1D5B200C59D08 /* KeychainService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,8 +563,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
