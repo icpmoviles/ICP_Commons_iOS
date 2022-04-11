@@ -12,7 +12,15 @@
 		4DE7984204F8901E09854E70C9428B99 /* Pods-ICP_Commons_iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F48CC6DBD95F1C4A62097A4D3F4608D /* Pods-ICP_Commons_iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59AE74C67BBCEF10F1E2501B7F1014C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C468D0CB31E23CFD3FAF30F9BE27D900 /* Pods-ICP_Commons_iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7D92AF24B2A149590E6D8A38D090C7 /* Pods-ICP_Commons_iOS_Example-dummy.m */; };
-		F00A38A427F1D5B200C59D08 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A38A327F1D5B200C59D08 /* KeychainService.swift */; };
+		F0D2DB222804477D00833377 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2DB212804477D00833377 /* KeychainManager.swift */; };
+		F0D2DB252804485600833377 /* BotonRedondo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2DB242804485600833377 /* BotonRedondo.swift */; };
+		F0D2DB272804487A00833377 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2DB262804487A00833377 /* CardView.swift */; };
+		F0D2DB29280448C300833377 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2DB28280448C300833377 /* CustomTextField.swift */; };
+		F0D2DB2C28044AB000833377 /* PopupEditTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2DB2B28044AB000833377 /* PopupEditTextViewController.swift */; };
+		F0D2DB2E28044AD700833377 /* PoupEditText.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0D2DB2D28044AD700833377 /* PoupEditText.storyboard */; };
+		F0D2DB3028045D7900833377 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D2DB2F28045D7900833377 /* assets.xcassets */; };
+		F0D2DB3228045E9000833377 /* UtilsCommons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2DB3128045E9000833377 /* UtilsCommons.swift */; };
+		F0D2DB3428045F0200833377 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2DB3328045F0200833377 /* Constantes.swift */; };
 		F7A4B8CBBC8A6020588A4D1DD50490BF /* ICP_Commons_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D0F3079A0006C0D63AE36FE099B81A /* ICP_Commons_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF7CB742B3C23D60A23AF5AD82553A1F /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F6CC49A20CA4855BE35E2B2AC94BB /* BlinkingLabel.swift */; };
 /* End PBXBuildFile section */
@@ -51,7 +59,15 @@
 		C11B6287757F95C89575CBBFA736FF0E /* Pods-ICP_Commons_iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICP_Commons_iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D3E1C66CE113B4E423F00BC0AD43BAEF /* ICP_Commons_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICP_Commons_iOS.debug.xcconfig; sourceTree = "<group>"; };
 		D889377750F9ED13F1FDBB6B7D3EFF36 /* Pods_ICP_Commons_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICP_Commons_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F00A38A327F1D5B200C59D08 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		F0D2DB212804477D00833377 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		F0D2DB242804485600833377 /* BotonRedondo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotonRedondo.swift; sourceTree = "<group>"; };
+		F0D2DB262804487A00833377 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F0D2DB28280448C300833377 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F0D2DB2B28044AB000833377 /* PopupEditTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupEditTextViewController.swift; sourceTree = "<group>"; };
+		F0D2DB2D28044AD700833377 /* PoupEditText.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PoupEditText.storyboard; sourceTree = "<group>"; };
+		F0D2DB2F28045D7900833377 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
+		F0D2DB3128045E9000833377 /* UtilsCommons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsCommons.swift; sourceTree = "<group>"; };
+		F0D2DB3328045F0200833377 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		F8CA092CF5956861268C098CB044B51F /* ICP_Commons_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ICP_Commons_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -169,13 +185,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F0D2DB232804484200833377 /* customViews */ = {
+			isa = PBXGroup;
+			children = (
+				F0D2DB242804485600833377 /* BotonRedondo.swift */,
+				F0D2DB262804487A00833377 /* CardView.swift */,
+				F0D2DB28280448C300833377 /* CustomTextField.swift */,
+			);
+			path = customViews;
+			sourceTree = "<group>";
+		};
+		F0D2DB2A28044A9A00833377 /* popups */ = {
+			isa = PBXGroup;
+			children = (
+				F0D2DB2B28044AB000833377 /* PopupEditTextViewController.swift */,
+				F0D2DB2D28044AD700833377 /* PoupEditText.storyboard */,
+			);
+			path = popups;
+			sourceTree = "<group>";
+		};
 		F9FC252D859630ABDDFC99E1C1B676DF /* ICP_Commons_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F0D2DB2A28044A9A00833377 /* popups */,
+				F0D2DB232804484200833377 /* customViews */,
 				A14F6CC49A20CA4855BE35E2B2AC94BB /* BlinkingLabel.swift */,
-				F00A38A327F1D5B200C59D08 /* KeychainService.swift */,
+				F0D2DB212804477D00833377 /* KeychainManager.swift */,
 				693B06817172A10C471E659E6DEAA3D0 /* Pod */,
 				A81C18FB6F708184911BBBB5C04DFD8B /* Support Files */,
+				F0D2DB2F28045D7900833377 /* assets.xcassets */,
+				F0D2DB3128045E9000833377 /* UtilsCommons.swift */,
+				F0D2DB3328045F0200833377 /* Constantes.swift */,
 			);
 			name = ICP_Commons_iOS;
 			path = ../..;
@@ -273,6 +313,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D2DB3028045D7900833377 /* assets.xcassets in Resources */,
+				F0D2DB2E28044AD700833377 /* PoupEditText.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +341,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF7CB742B3C23D60A23AF5AD82553A1F /* BlinkingLabel.swift in Sources */,
+				F0D2DB222804477D00833377 /* KeychainManager.swift in Sources */,
+				F0D2DB3228045E9000833377 /* UtilsCommons.swift in Sources */,
+				F0D2DB29280448C300833377 /* CustomTextField.swift in Sources */,
+				F0D2DB2C28044AB000833377 /* PopupEditTextViewController.swift in Sources */,
+				F0D2DB3428045F0200833377 /* Constantes.swift in Sources */,
+				F0D2DB252804485600833377 /* BotonRedondo.swift in Sources */,
 				1858CE0E54A56E4EABC8DDBE8B401B14 /* ICP_Commons_iOS-dummy.m in Sources */,
-				F00A38A427F1D5B200C59D08 /* KeychainService.swift in Sources */,
+				F0D2DB272804487A00833377 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
